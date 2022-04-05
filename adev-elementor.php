@@ -3,7 +3,7 @@
 Plugin Name: Adev-Elementor
 Plugin URI: https://amadordeveloper.com
 Description: Este plugin permite agregar addons nuevos para Elementor
-Version:1.0.0
+Version:1.0.1
 Author: Amador developer
 Author URI: https://amadordeveloper.com
 License: GPL
