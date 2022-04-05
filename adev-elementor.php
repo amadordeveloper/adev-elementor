@@ -27,3 +27,18 @@ function register_adev_elementor_widget( $widgets_manager ) {
 
 }
 add_action( 'elementor/widgets/register', 'register_adev_elementor_widget' );
+
+
+function create_new_category( $elements_manager ) {
+
+	$elements_manager->add_category(
+		'amador-developer',
+		[
+			'title' => __( 'Amador Developer', 'adev' ),
+			'icon' => 'fa fa-plug',
+		]
+	);
+
+}
+
+add_action( 'elementor/elements/categories_registered', 'create_new_category' );

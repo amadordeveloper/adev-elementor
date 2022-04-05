@@ -14,7 +14,7 @@ class Adev_Blind_Tab extends \Elementor\Widget_Base {
 	}
 
 	public function get_categories() {
-		return [ 'Amador Developer' ];
+		return [ 'amador-developer' ];
 	}
 
 	public function get_keywords() {
